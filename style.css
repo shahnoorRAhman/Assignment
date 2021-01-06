@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 20px 20px;
 }
 .h1-header{
     font-size: 50px;
@@ -14,6 +15,12 @@ body{
     height: 30px;
 
 }
+.h2-header{
+    font-size: 45px;
+    color: rgb(28, 28, 80) ;
+    margin-left: 30%;
+}
+
 .half-width{
     width: 40%;
     float: left;
@@ -22,4 +29,50 @@ body{
 }
 .half-width img{
     width: 100%;
+}
+.half-width1{
+        width: 400px;
+        float: left;
+        margin-left: 3%;
+        padding-left: 1%;
+        
+}
+.half-width1 img{
+    width: 30%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: repeating-linear-gradient(rgb(236, 195, 234), rgb(133, 21, 133));
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 200px;
+}
+#name{
+    color: orange;
+}
+.worked-website{
+    color:  rgb(28, 28, 80);
+}
+.latest-work{
+    clear: both;
+}
+.latest-work p{
+    color:dimgray;
+}
+.latest{
+    color: firebrick;
+    margin-left: 500px;
+}
+.WORKING-PROJECT{
+  color:  rgb(28, 28, 80)
+
+}
+#shadow{
+    box-shadow: 10px 10px 40px grey;
+}
+.footer{
+    text-align: center;
 }
